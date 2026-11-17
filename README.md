@@ -2,8 +2,10 @@
 
 Google Play requires a privacy policy at a public web address for an app
 that shows ads, and AdMob wants a website for its `app-ads.txt` file. These
-files are that website: `index.html` (a short landing page) and
-`privacy.html` (the policy).
+files are that website: `index.html` (a short landing page),
+`privacy.html` (the policy) and `terms.html` (Terms of Service). Upload all
+three, and set `StoreLinks.SITE_URL` in `src/services/store_links.gd` to the
+site's address so Settings links to them.
 
 ## Before publishing: fill in the placeholders
 
